@@ -1,12 +1,29 @@
-# Welcome to Remix!
+# Welcome!
 
-- 📖 [Remix docs](https://remix.run/docs)
+## Decisions
+
+- React Flavor: **Remix**: Recency bias at play for how I think about data fetching in React.
+- Styling: **TailwindCSS + shadcn/ui**: Collection of re-usable atomic components that are easily copy pasted into your app.
+
+## Obvious Improvements
+
+- Local Data Caching to avoid api thrashing (tanstack query)
+- Log errors to Sentry or other log dump
+- Display:
+  - pagination
+  - name search
+  - field filtering
+
+## Note
+
+Commiting `.env` for simplicity, would never otherwise do that.
 
 ## Development
 
-Run the dev server:
+Install dependencies and run the dev server:
 
 ```shellscript
+npm install
 npm run dev
 ```
 
